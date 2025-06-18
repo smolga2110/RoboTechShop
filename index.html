@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboTech - Промышленная автоматизация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-container">
+        <a href="\" class="logo">
+            <img src="logo.png" alt="RoboTech">
+            <span>RoboTech</span>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#products" class="prod-a">Продукты</a></li>
+                <li><a href="#solutions" class="nav-a">Решения</a></li>
+                <li><a href="#pricing" class="nav-a">Тарифы</a></li>
+                <li><a href="#contacts" class="nav-a">Контакты</a></li>
+                <button class="sign-button">Вход</button>
+                <button class="reg-button">Регистрация</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <div class="hero-section">
+            <video autoplay muted loop class="hero-video">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <h1 class="hero-title">Промышленная <span>робототехника</span></h1>
+                <p class="hero-subtitle">Инновационные решения для автоматизации производства</p>
+                <a href="#products" class="hero-button">Наши продукты</a>
+            </div>
+        </div>
+
+        <section id="products" class="products-section">
+            <h2 class="section-title">Наши продукты</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="robohand.jpg" alt="Роботизированная рука">
+                    </div>
+                    <div class="product-info">
+                        <h3>RoboArm Pro</h3>
+                        <p>Высокоточный манипулятор для сборочных линий</p>
+                        <span class="product-price">1 250 000 ₽</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="hand2.jpg" alt="Роботизированная рука">
+                    </div>
+                    <div class="product-info">
+                        <h3>AutoWelder X7</h3>
+                        <p>Роботизированная система сварки</p>
+                        <span class="product-price">2 800 000 ₽</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="hand3.jpg" alt="Роботизированная рука">
+                    </div>
+                    <div class="product-info">
+                        <h3>CoBot Flex</h3>
+                        <p>Коллаборативный робот</p>
+                        <span class="product-price">950 000 ₽</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="hand4.jpg" alt="Роботизированная рука">
+                    </div>
+                    <div class="product-info">
+                        <h3>PackMaster 3000</h3>
+                        <p>Автоматизированная линия упаковки</p>
+                        <span class="product-price">3 500 000 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section">
+            <h2 class="section-title">Тарифы</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Стандарт</h3>
+                    <div class="price">900 000₽<span>/месяц</span></div>
+                    <ul class="features">
+                        <li>5 роботизированных модулей</li>
+                        <li>Техническая поддержка</li>
+                        <li>Обновления ПО</li>
+                    </ul>
+                    <button class="order-button">Заказать</button>
+                </div>
+                <div class="pricing-card highlight">
+                    <h3>Профессиональный</h3>
+                    <div class="price">1 500 000₽<span>/месяц</span></div>
+                    <ul class="features">
+                        <li>10 роботизированных модулей</li>
+                        <li>Приоритетная поддержка</li>
+                        <li>Кастомизация</li>
+                    </ul>
+                    <button class="order-button">Заказать</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Премиум</h3>
+                    <div class="price">2 500 000₽<span>/месяц</span></div>
+                    <ul class="features">
+                        <li>Неограниченное количество модулей</li>
+                        <li>24/7 поддержка</li>
+                        <li>Индивидуальные решения</li>
+                    </ul>
+                    <button class="order-button">Заказать</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts-section">
+            <div class="contacts-container">
+                <div class="contact-info">
+                    <h2>Контакты</h2>
+                    <p><strong>Адрес:</strong> г. Москва, ул. Промышленная, 15</p>
+                    <p><strong>Телефон:</strong> +7 (495) 123-45-67</p>
+                    <p><strong>Email:</strong> info@robotech.ru</p>
+                </div>
+                <form class="contact-form">
+                    <h3>Обратная связь</h3>
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="tel" placeholder="Телефон">
+                    <textarea placeholder="Ваше сообщение" required></textarea>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="logo.png" alt="RoboTech">
+                <span>RoboTech</span>
+            </div>
+            <div class="footer-links">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Условия использования</a>
+            </div>
+            <div class="footer-copyright">
+                © 2023 RoboTech. Все права защищены.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
